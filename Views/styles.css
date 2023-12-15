@@ -1,0 +1,16 @@
+body {
+    /* Set the background image */
+    background-image: url('../img/background.jpg');
+
+    /* Set background size to cover the entire viewport */
+    background-size: cover;
+
+    /* Center the background image */
+    background-position: center;
+
+    /* Fix the background image as the user scrolls */
+    background-attachment: local;
+
+    /* Specify a background color as a fallback */
+    background-color: #000000; /* Fallback color in case the image is not available or loading */
+}
